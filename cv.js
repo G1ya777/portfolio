@@ -13,7 +13,7 @@ function downloadCV() {
     body { font-family: 'Georgia', serif; color: #111; background: #fff; padding: 48px 56px; max-width: 780px; margin: auto; }
     h1 { color:#000 ;font-size: 28px; font-weight: bold; margin-bottom: 4px; }
     .subtitle { font-size: 13px; color: #555; margin-bottom: 6px; }
-    .meta { font-size: 12px; color: #777; display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 32px; padding-bottom: 16px; border-bottom: 1px solid #e0e0e0; }
+    .meta { font-size: 12px; color: #777; display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 32px; padding-bottom: 16px; border-bottom: 1px solid #e0e0e0; }
     h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 2px; color: #888; margin: 28px 0 12px; }
     .entry { margin-bottom: 16px; }
     .entry-title { color:#000 ;font-size: 15px; font-weight: bold; }
@@ -30,7 +30,7 @@ function downloadCV() {
   <h1>${aboutForCV.name}</h1>
   <p class="subtitle">${aboutForCV.tagline.replace("\n", " ")}</p>
   <div class="meta">
-    <span>📍 ${aboutForCV.location}</span>
+    <span mb-2>📍 ${aboutForCV.location}</span>
     ${aboutForCV.contacts.map((c) => `<span>${c.label}: ${c.value}</span>`).join("")}
     <span>Portfolio : https://g1ya777.github.io/portfolio/</span>
   </div>
