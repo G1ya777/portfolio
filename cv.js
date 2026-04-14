@@ -32,7 +32,7 @@ function downloadCV() {
   <div class="meta">
     <span>📍 ${aboutForCV.location}</span>
     ${aboutForCV.contacts.map((c) => `<span>${c.label}: ${c.value}</span>`).join("")}
-    <span>Porfolio : g1ya777.dev</span>
+    <span>Porfolio : https://g1ya777.github.io/portfolio/</span>
   </div>
 
   <h2>Education</h2>
