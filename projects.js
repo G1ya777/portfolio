@@ -23,6 +23,11 @@ document.addEventListener("DOMContentLoaded", () => {
           label: "GitHub",
           href: "https://github.com/G1ya777/Mmeslay_backend-CLI",
         },
+        {
+          label: "Live Demo",
+          href: "https://huggingface.co/spaces/g1ya/Mmeslay",
+          accent: true,
+        },
       ],
     },
     {
